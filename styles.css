@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding:0;
+}
+.nav_list {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #333;
+}
+.nav_list li {
+  list-style: none;
+  /* padding: 10px; */
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: red;
+}
+.input_form {
+  width: 30%;
+  padding: 10px 15px;
+  margin: 10px 5px;
+  border: 2px solid black;
+}
+.input_contact {
+  border-radius: 5px;
+  background-color: rgb(241, 224, 224);
+  padding: 20px;
+}
+.input-submit {
+  font: size 30;
+  widows: 60px;
+  background-color: #0b0c0b;
+  color: white;
+  padding: 14px 16px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 0%;
+  cursor: pointer;
+}
+.input_search {
+  width: 20%;
+  padding: 5px 10px;
+  margin: 5px 5px;
+  border: 1px solid black;
+}
+.financial_markets {
+  display: inline-flex;
+  justify-content: flex-start;
+  
+}
+p a {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0%;
+  background-color: #333;
+  color: white;
+  padding: 14px 16px;
+}
+h2 {
+  text-align: center;
+}
+section{
+  text-align: center;
+}
+#Home p{
+  margin: 20px 200px;
+}
